@@ -1,7 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
-*$py.class
+*.py[cod]
+venv/
+.env
+.ipynb_checkpoints/
 
 # C extensions
 *.so
@@ -81,6 +83,22 @@ target/
 # IPython
 profile_default/
 ipython_config.py
+
+# Excel temp files
+~$*.xlsx
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Database backups
+*.bak
+*.sql.gz
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
@@ -180,6 +198,10 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Tableau
+*.twb~
+*.twbx
 
 # PyCharm
 #   JetBrains specific template is maintained in a separate JetBrains.gitignore that can

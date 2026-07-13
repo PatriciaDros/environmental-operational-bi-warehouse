@@ -317,6 +317,21 @@ The documentation should never promise work that the repository cannot demonstra
 
 ---
 
+---
+
+# Project Management Documents
+
+Version 1.0 is managed using four project documents.
+
+| Document | Purpose |
+|----------|---------|
+| PROJECT_STANDARDS.md | Defines how the project is built. |
+| PROJECT_ROADMAP.md | Shows the overall direction and current phase of the project. |
+| IMPLEMENTATION_PLAN.md | Defines the order in which Version 1.0 is implemented. |
+| TRACEABILITY_MATRIX.md | Ensures the documentation and implementation remain synchronized. |
+
+Each document serves a unique purpose and should avoid duplicating information contained in another project management document.
+
 # Guiding Principle
 
 The Environmental Operational Business Intelligence Warehouse is both a real business solution and a technical portfolio project.

@@ -2,34 +2,160 @@
 
 **Project:** Environmental Operational Business Intelligence Warehouse
 
+**Version:** 1.0
+
 ---
 
 # Purpose
 
-This matrix ensures that every chapter of the technical manual is supported by implementation artifacts contained within the repository.
+This matrix ensures that every implementation artifact created for Version 1.0 is supported by the corresponding documentation.
 
-The goal is to keep the documentation, SQL implementation, diagrams, screenshots, and supporting materials synchronized throughout Version 1.0.
+Likewise, every chapter of the technical manual should be supported by working SQL, diagrams, screenshots, validation, or reporting.
 
-Following this matrix helps ensure that the repository tells one consistent story from beginning to end.
+The goal is simple:
+
+> **The documentation is the guide.**
+
+> **The repository is the evidence.**
+
+A reader following the documentation should always be able to locate the implementation being described.
 
 ---
 
-# Traceability Matrix
+# Traceability Workflow
 
-| Documentation | SQL | Diagram | Screenshot | Status |
-|---------------|-----|----------|------------|--------|
-| 01 Executive Summary | — | — | — | ✅ |
-| 02 Project Overview | — | High-Level Architecture | ⬜ | 🔄 |
-| 03 Business Problem | — | Business Process Lifecycle | ⬜ | 🔄 |
-| 04 Business Processes & System Evolution | — | Business Process Diagram | ⬜ | 🔄 |
-| 05 Solution Architecture | Database Structure | High-Level Warehouse Architecture | SQL Schema | 🔄 |
-| 06 Data Flow Architecture | ETL Scripts | Data Flow Diagram | ETL Execution | 🔄 |
-| 07 Data Model | Table Creation Scripts | Warehouse ERD | SQL Schema | 🔄 |
-| 08 ETL Design | ETL SQL Scripts | Payroll, Laboratory, Billing ETL Pipelines | SQL Execution | 🔄 |
-| 09 Data Dictionary | Table Definitions | Table Relationships | — | 🔄 |
-| 10 Data Validation | Validation Queries | Validation Flow | Validation Results | ⬜ |
-| 11 Reporting | Reporting Queries | Reporting Flow | SQL Results | ⬜ |
-| 12 Future Enhancements | — | Future Architecture (Optional) | — | 📝 |
+Every major implementation follows the same lifecycle.
+
+```
+Business Process
+        │
+        ▼
+SQL Development
+        │
+        ▼
+Validation
+        │
+        ▼
+Documentation
+        │
+        ▼
+Diagram
+        │
+        ▼
+Screenshot
+        │
+        ▼
+Git Commit
+```
+
+Only after all artifacts exist should the work be considered complete.
+
+---
+
+# Subject Area Traceability
+
+## Payroll / Labor
+
+| Artifact | Status |
+|----------|--------|
+| Business Rules | ✅ |
+| Staging Table | ✅ |
+| Dimension Tables | ✅ |
+| SQL JOINS | 🔄 |
+| Fact Labor | ⬜ |
+| Validation Queries | ⬜ |
+| Documentation | 🔄 |
+| Diagram | ⬜ |
+| Screenshot | ⬜ |
+| Reporting Query | ⬜ |
+
+---
+
+## Laboratory
+
+| Artifact | Status |
+|----------|--------|
+| Business Rules | ✅ |
+| Staging Table | ✅ |
+| Dimension Tables | ✅ |
+| SQL JOINS | ⬜ |
+| Fact Laboratory | ⬜ |
+| Validation Queries | ⬜ |
+| Documentation | 🔄 |
+| Diagram | ⬜ |
+| Screenshot | ⬜ |
+| Reporting Query | ⬜ |
+
+---
+
+## Billing / Request for Payment
+
+| Artifact | Status |
+|----------|--------|
+| Business Rules | ✅ |
+| Staging Table | ✅ |
+| Dimension Tables | 🔄 |
+| SQL JOINS | ⬜ |
+| Fact Job Summary | ⬜ |
+| Validation Queries | ⬜ |
+| Documentation | 🔄 |
+| Diagram | ⬜ |
+| Screenshot | ⬜ |
+| Reporting Query | ⬜ |
+
+---
+
+# Technical Manual Traceability
+
+| Chapter | Supported By | Status |
+|----------|--------------|--------|
+| Executive Summary | Repository | ✅ |
+| Project Overview | Repository | ✅ |
+| Business Problem | Business documentation | ✅ |
+| Business Processes | Business diagrams | 🔄 |
+| Solution Architecture | Architecture diagram | 🔄 |
+| Data Flow | ETL diagram | ⬜ |
+| Data Model | ERD | ⬜ |
+| ETL Design | SQL scripts | 🔄 |
+| Data Dictionary | Reference documentation | 🔄 |
+| Data Validation | Validation SQL | ⬜ |
+| Reporting | Reporting SQL | ⬜ |
+| Future Enhancements | Version 2 Ideas | ✅ |
+
+---
+
+# Definition of Done
+
+A subject area is complete when all of the following have been completed.
+
+## SQL
+
+- [ ] Tables created
+- [ ] ETL completed
+- [ ] SQL validated
+
+---
+
+## Documentation
+
+- [ ] Technical Manual updated
+- [ ] Data Dictionary updated
+- [ ] Business Rules updated
+
+---
+
+## Visual Artifacts
+
+- [ ] Diagram
+- [ ] Screenshot
+- [ ] Sample SQL output
+
+---
+
+## Portfolio
+
+- [ ] GitHub committed
+- [ ] README updated (if needed)
 
 ---
 
@@ -40,61 +166,15 @@ Following this matrix helps ensure that the repository tells one consistent stor
 | ⬜ | Not Started |
 | 🔄 | In Progress |
 | ✅ | Complete |
-| 📝 | Planned for Future Version |
-
----
-
-# How to Use This Matrix
-
-Each chapter of the technical manual should be supported by one or more implementation artifacts.
-
-Typical artifacts include:
-
-- SQL scripts
-- ETL scripts
-- Diagrams
-- Screenshots
-- Validation queries
-- Sample reports
-
-When an implementation artifact is completed, update the corresponding chapter and mark the appropriate status.
-
----
-
-# Version 1.0 Workflow
-
-Version 1.0 will be completed by building one business area at a time.
-
-The preferred workflow is:
-
-```
-
-Business Process
-        ↓
-SQL Development
-        ↓
-Validation
-        ↓
-Documentation
-        ↓
-Diagram
-        ↓
-Screenshot
-        ↓
-Git Commit
-
-```
-
-This process ensures that the implementation and documentation remain synchronized throughout the project.
 
 ---
 
 # Guiding Principle
 
-The documentation is the guide.
+The implementation and documentation should progress together.
 
-The repository is the evidence.
+No SQL should exist without documentation.
 
-A reader should be able to move from the documentation directly to the SQL implementation, diagrams, screenshots, and validation artifacts without encountering gaps between what is described and what has been built.
+No documentation should describe functionality that does not yet exist.
 
 > **Show and tell must align.**

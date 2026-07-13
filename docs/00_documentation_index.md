@@ -2,17 +2,19 @@
 
 # Documentation Index
 
-Welcome to the technical documentation for the Environmental Operational Business Intelligence Warehouse.
+Welcome to the documentation for the Environmental Operational Business Intelligence Warehouse.
 
-This documentation is organized as a technical design manual. Each chapter builds upon the previous chapter, guiding the reader from the business problem through the final warehouse implementation.
+This documentation describes the business problems that led to the project, the business processes the warehouse models, and the design and implementation of Version 1.0.
+
+The chapters are organized in the same order the warehouse was developed—from understanding the business to designing the database and documenting its implementation.
 
 ---
 
 # Documentation Roadmap
 
-## Part I — Business Context
+## Part I — Understanding the Business
 
-Understanding the business problem and operational environment.
+Before building a database, it was necessary to understand how the business operated and the questions the warehouse needed to answer.
 
 | Chapter | Document |
 |---------|----------|
@@ -23,9 +25,9 @@ Understanding the business problem and operational environment.
 
 ---
 
-## Part II — Solution Design
+## Part II — Designing the Warehouse
 
-How the warehouse was designed.
+These chapters describe how the business processes were translated into a relational database design.
 
 | Chapter | Document |
 |---------|----------|
@@ -35,9 +37,9 @@ How the warehouse was designed.
 
 ---
 
-## Part III — Implementation
+## Part III — Building the Warehouse
 
-How the warehouse was built.
+These chapters document the SQL implementation and supporting reference material used to build Version 1.0.
 
 | Chapter | Document |
 |---------|----------|
@@ -47,9 +49,9 @@ How the warehouse was built.
 
 ---
 
-## Part IV — Reporting
+## Part IV — Reporting and Future Development
 
-How the warehouse supports analytics.
+Version 1.0 focuses on building and documenting the warehouse. This section describes the reporting opportunities the warehouse supports today and identifies ideas for future development.
 
 | Chapter | Document |
 |---------|----------|
@@ -58,16 +60,26 @@ How the warehouse supports analytics.
 
 ---
 
-## Appendices
+# Supporting Documentation
 
-Supporting technical documentation.
+In addition to the technical manual, the repository includes supporting reference material.
 
-- Architecture Decisions
-- Warehouse Specification
-- Business Rules
-- Table Grains
-- Column Dictionary
-- SQL Scripts
-- Screenshots
-- Sample Data
-- Diagrams
+| Folder | Purpose |
+|--------|---------|
+| architecture/ | Business rules, design decisions, and warehouse specifications |
+| data_dictionary/ | Table grains, relationships, and column definitions |
+| diagrams/ | Architecture, ETL, ERD, and data flow diagrams |
+| appendix/ | Supporting reference material |
+| setup/ | Development environment and project setup instructions |
+
+---
+
+# Project Management
+
+The repository also includes several working documents used during development.
+
+| Document | Purpose |
+|----------|---------|
+| PROJECT_STANDARDS.md | Standards used to guide the project |
+| PROJECT_TODO.md | Tasks remaining before Version 1.0 is complete |
+| version_2_ideas.md | Ideas intentionally deferred until a future version |

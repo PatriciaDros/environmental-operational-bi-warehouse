@@ -263,6 +263,60 @@ The commit history should clearly show the evolution of the project.
 
 ---
 
+---
+
+# Rule 16 — Documentation Must Match the Repository
+
+The documentation must accurately describe the current implementation of the warehouse.
+
+Every chapter, diagram, screenshot, SQL script, and reference document should correspond to an artifact that exists within the repository.
+
+If implementation changes, update the documentation.
+
+If documentation describes functionality that does not yet exist, it should be clearly identified as future work.
+
+The documentation tells the same story that the repository demonstrates.
+
+---
+
+# Rule 17 — Build and Document Together
+
+Version 1.0 will be completed one artifact at a time.
+
+The preferred workflow is:
+
+Business Problem
+        ↓
+SQL Implementation
+        ↓
+Validation
+        ↓
+Documentation
+        ↓
+Diagram
+        ↓
+Screenshot
+        ↓
+Git Commit
+
+Complete one artifact before moving to the next.
+
+This keeps the implementation and documentation synchronized throughout the project.
+
+---
+
+# Rule 18 — Show and Tell Must Align
+
+The technical manual serves as the guide through the repository.
+
+Every chapter should be supported by corresponding implementation artifacts, including SQL scripts, diagrams, screenshots, validation queries, or sample output.
+
+A reader following the documentation should always be able to locate the artifact being described.
+
+The documentation should never promise work that the repository cannot demonstrate.
+
+---
+
 # Guiding Principle
 
 The Environmental Operational Business Intelligence Warehouse is both a real business solution and a technical portfolio project.

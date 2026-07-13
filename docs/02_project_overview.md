@@ -2,116 +2,79 @@
 
 ## Purpose
 
-The purpose of this project is to redesign an Excel-based operational reporting system into a structured SQL data warehouse.
+The Environmental Operational Business Intelligence Warehouse was developed to organize the operational information needed to manage environmental consulting projects from the start of a job through final payment.
 
-The warehouse provides a centralized repository for operational data while preserving the business relationships required for reporting and analysis.
+The project began as a series of Excel-based tools created to solve everyday business problems. These included tracking required project documentation, recording technician labor, monitoring laboratory reports, preparing Final Reports, reducing payroll reporting errors, and answering operational questions that could not be answered quickly using the existing systems.
+
+As additional business problems were solved, the relationships between jobs, employees, contracts, work authorizations, laboratory reports, payroll, and billing became clearer. What began as individual operational workbooks gradually evolved into an integrated SQL database that models how the business actually operates.
+
+The warehouse was not designed all at once. It was developed incrementally as business processes became better understood and the relationships between the data emerged through daily use.
 
 ---
 
-# Business Domain
+## Business Domain
 
-Environmental Consulting
+This project is based on the day-to-day operations of an environmental consulting company.
 
-Services include:
+The business performs services such as:
 
-- Asbestos investigations
-- Lead inspections
-- Mold assessments
-- Industrial hygiene
+- Environmental investigations
+- Project monitoring
 - Laboratory sample management
-- School Construction Authority (SCA) projects
+- Regulatory reporting
+- Contract administration
+- Billing and payment tracking
 
 ---
 
-# Business Processes
+## Business Questions
 
-The warehouse models the following operational processes:
+The warehouse was designed to answer questions such as:
 
-- Contract Management
-- Work Authorizations (WA)
-- Job Management
-- Employee Payroll
-- Laboratory Reporting
-- Requests for Payment (RFP)
-- Payment Tracking
+- Is this job ready to be submitted for payment?
+- If not, what information or documentation is still missing?
+- Did a technician work on a specific job on a particular day?
+- Were the reported hours entered correctly and submitted to payroll?
+- Have all laboratory reports been received?
+- Has the required project documentation been collected?
+- Has the job been billed?
+- Has payment been received?
+
+These questions drive the design of the warehouse and the relationships between its tables.
 
 ---
 
-# Project Components
+## Business Processes
 
-The warehouse consists of four primary layers.
+Version 1.0 models the following operational processes:
 
-## Source Layer
-
-Operational Excel workbooks used by staff.
-
-Examples include:
-
+- Contract management
+- Work authorizations
+- Job management
+- Technician labor
+- Laboratory reporting
 - Payroll
-- Job List
-- Work Authorizations
-- Laboratory Reports
-- Employee Master
-- Contracts
-- Fixed Price Schedule
-- Requests for Payment
+- Requests for payment
+- Payment tracking
+
+Each process contributes information that supports the overall lifecycle of a project.
 
 ---
 
-## Staging Layer
+## Current Scope
 
-Stores imported source data with minimal transformation.
+Version 1.0 focuses on building and documenting the operational data warehouse.
 
-Purpose:
+Current work includes:
 
-- Preserve source records
-- Standardize data types
-- Prepare data for warehouse loading
-
----
-
-## Dimension Layer
-
-Stores descriptive business entities.
-
-Examples include:
-
-- Jobs
-- Employees
-- Buildings
-- Contracts
-- Labor Roles
-- Laboratory Facilities
-
----
-
-## Fact Layer
-
-Stores measurable business events.
-
-Examples include:
-
-- Labor
-- Laboratory Activity
-- Billing (planned)
-
----
-
-# Project Deliverables
-
-The completed Version 1 warehouse includes:
-
-- SQL database
-- ETL scripts
-- Star-schema style data model
-- Data dictionary
-- Grain documentation
-- Source-to-target mappings
-- Validation queries
+- SQL database development
+- Staging tables
+- Dimension tables
+- Fact tables
+- ETL processes
 - Technical documentation
+- Data dictionary
+- Business rules
+- Warehouse architecture
 
-Future enhancements include:
-
-- Dashboard development
-- KPI reporting
-- Automated ETL
+Reporting dashboards and additional automation are outside the scope of Version 1.0 and may be considered in a future release.

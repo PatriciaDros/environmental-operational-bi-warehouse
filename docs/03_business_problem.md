@@ -1,22 +1,22 @@
 # Business Problem
 
+What operational problems needed to be solved?
+
 ## Why This Chapter Matters
 
-Before designing a database, it is important to understand the business problems it was built to solve.
+Before designing a database, it is important to understand the business problems it was intended to solve.
 
-This chapter describes the operational challenges that led to the development of the Environmental Operational Business Intelligence Warehouse and explains why a collection of independent spreadsheets eventually evolved into a centralized SQL database.
+This chapter describes the operational challenges that existed before the warehouse was developed and explains why the existing processes were becoming increasingly difficult to manage.
 
 ---
 
 # Business Context
 
-The company provides environmental consulting services for public and private construction projects.
+The company performs environmental consulting services for public and private construction projects.
 
-Each completed project requires technical reports, laboratory analysis, technician payroll, supporting documentation, and billing before payment can be requested.
+Each project generates information from many different sources throughout its lifecycle. Technician labor, laboratory testing, project documentation, payroll, billing, and payment tracking all contribute to the completion of a job.
 
-Although each part of the business produced valuable information, that information was created and maintained in many different places.
-
-No single system provided a complete view of a project from the time work was authorized until payment was received.
+Although each process produced valuable information, no single system brought everything together.
 
 ---
 
@@ -28,82 +28,59 @@ These included:
 
 - Technician field logs
 - Laboratory reports
-- Work authorizations
-- Project reports
 - Payroll records
-- Contractor documentation
+- Project documentation
+- Work authorizations
+- Contract information
 - Licensing records
 - Internal tracking workbooks
 - Downloads provided by the company's public agency client
 
 Each source answered only part of the overall business process.
 
-Understanding the complete status of a project required manually connecting information across all of these sources.
+Understanding the complete status of a project required manually connecting information from all of these sources.
 
 ---
 
-# The Questions the Business Needed Answered
+# Operational Challenges
 
-The business needed reliable answers to questions such as:
+Several recurring problems affected day-to-day operations.
+
+Examples included:
+
+- Information scattered across multiple workbooks and documents.
+- Duplicate data entered into multiple systems.
+- Difficulty determining whether a project was complete.
+- Technician logs and laboratory reports arriving at different times.
+- Payroll information requiring manual verification.
+- Supporting documentation needing to be reconciled before billing.
+- Repeated lookups across multiple spreadsheets.
+
+As the volume of work increased, maintaining these relationships manually became increasingly difficult.
+
+---
+
+# Business Questions
+
+Management frequently needed answers to questions such as:
 
 - Is this job ready to be submitted for payment?
 - If not, what is still missing?
-- Did every technician submit their project log?
-- Were all technician hours entered correctly?
-- Were the correct hours submitted to payroll?
+- Did a technician work on a particular day?
+- Were the reported hours submitted correctly?
 - Have all laboratory reports been received?
-- Does the project documentation match the work that was performed?
-- Has the job been billed?
+- Has all required project documentation been collected?
+- Has the Request for Payment been submitted?
 - Has payment been received?
 
-These questions affected project completion, payroll, billing, cash flow, and ultimately the company's financial performance.
+Answering these questions often required searching through multiple spreadsheets, reports, and paper records before a reliable answer could be given.
 
 ---
 
-# The Operational Reality
+# Summary
 
-No single system answered these questions.
+The business problems were not caused by a lack of information.
 
-Instead, information had to be collected from multiple documents, spreadsheets, reports, and handwritten records before a reliable answer could be given.
+The challenge was that the information existed in many different places and had to be manually connected before meaningful business questions could be answered.
 
-As the company completed more projects, maintaining these relationships manually became increasingly difficult.
-
-The same information was often recorded multiple times in different places, increasing the risk of inconsistent data, missing information, and reporting errors.
-
----
-
-# The First Solutions
-
-The initial goal was not to build a database.
-
-The first goal was to solve individual operational problems.
-
-Excel workbooks were created to:
-
-- Track required project documentation.
-- Record technician labor.
-- Monitor laboratory reports.
-- Reduce payroll reporting errors.
-- Track billing activity.
-- Improve the accuracy of Final Reports.
-- Answer recurring operational questions more efficiently.
-
-Each workbook solved a specific business problem.
-
-Over time, however, the workbooks became increasingly connected because they were describing different parts of the same business process.
-
----
-
-# From Operational Tools to a Data Warehouse
-
-As new operational questions arose, additional tracking systems were developed.
-
-Eventually it became clear that the workbooks were no longer independent tools.
-
-They had become an interconnected operational reporting system.
-
-The Environmental Operational Business Intelligence Warehouse was created to organize those relationships within a centralized SQL database, allowing information to be connected through common business entities rather than maintained separately across numerous spreadsheets.
-
-Rather than replacing the business processes, the warehouse was designed to model them.
-
-The result is a structured operational reporting system that reflects how the business actually works.
+The next chapter describes how those operational problems were gradually solved and how the warehouse evolved from a collection of Excel workbooks into a relational SQL database.

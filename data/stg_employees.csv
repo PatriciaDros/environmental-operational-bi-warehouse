@@ -1,0 +1,23 @@
+Last Name,First Name,Full Name,EmployeeID,EmployeeType,Is_Active
+Bellos,Vasili,Vasili Bellos,VBE01,Salary,1
+Bellos,Dimitri,Dimitri Bellos,DBE01,Salary,1
+Dros,Patricia,Patricia Dros,PDR01,Hourly,1
+Albu,Cornel,Cornel Albu,CAL01,Contracted,1
+Ablitsova,Marina,Marina Ablitsova,MAB01,Contracted,1
+Ciobanu,Tatiana,Tatiana Ciobanu,TCI01,Contracted,1
+Hung,ChiFei,ChiFei Hung,CFE01,Contracted,1
+Hung,JoiFei,JoiFei Hung,JFE01,Contracted,1
+Groysman,Leon,Leon Groysman,LGR01,Contracted,1
+Groysman,Igor,Igor Groysman,IGR01,Contracted,1
+Vilchez,Ricardo,Ricardo Vilchez,RVI01,Contracted,0
+Lazarov,Soslan,Soslan Lazarov,SLA01,Contracted,1
+Gasis,Aleksandr,Aleksandr Gasis,AGA01,Contracted,1
+Tsvayg,Aleksandr,Aleksandr Tsvayg,ATS01,Contracted,1
+Nebieridze,Zviadi,Zviadi Nebieridze,ZNE01,Contracted,1
+Hasan,Isha,Isha Hasan,IHA01,Contracted,1
+Sagihashvili,Shalva,Shalva Sagihashvili,SSA01,Contracted,0
+Adeniran,Adeniyi,Adeniyi Adeniran,AAD01,Contracted,0
+Skira,Maryan,Maryan Skira,MSK01,Contracted,1
+Gumenyuk,Sergiy,Sergiy Gumenyuk,SGU01,Contracted,1
+Gurchiani,Zaur,Zaur Gurchiani,ZGU01,Contracted,0
+Jintchveladze,Avtandil,Avtandil Jintchveladze,AJI01,Contracted,0

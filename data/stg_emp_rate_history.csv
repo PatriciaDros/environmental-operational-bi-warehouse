@@ -1,0 +1,54 @@
+LegacyEmpKey,EmpName,JobCode,JobTitle,ExpTier,Rate_StartDate,Rate_EndDate,Rate
+adeniyiadeniran01,Adeniyi Adeniran,01,Asbestos Project Monitor,3,2023-09-14,2023-10-08,33.00
+aleksandrgasis01,Aleksandr Gasis,01,Asbestos Project Monitor,3,2024-09-01,2026-07-06,38.00
+aleksandrtsvayg01,Aleksandr Tsvayg,01,Asbestos Project Monitor,3,2019-01-01,2026-04-12,33.00
+aleksandrtsvayg01,Aleksandr Tsvayg,01,Asbestos Project Monitor,3,2026-04-13,2026-07-06,38.00
+chifeihung01,Chi Fei Hung,01,Asbestos Project Monitor,7,2019-01-01,2026-04-12,38.00
+chifeihung02,Chi Fei Hung,02,Asbestos On Site Technical Air Testing,7,2019-01-01,2026-04-12,38.00
+cornelalbu01,Cornel Albu,01,Asbestos Project Monitor,7,2019-01-01,2026-04-12,38.00
+cornelalbu03,Cornel Albu,03,Asbestos Investigator,7,2019-01-01,2026-04-12,45.00
+cornelalbu05,Cornel Albu,05,Asbestos Project Manager,7,2019-01-01,2026-07-06,45.00
+igorgroysman01,Igor Groysman,01,Asbestos Project Monitor,7,2019-01-01,2026-04-12,38.00
+igorgroysman03,Igor Groysman,03,Asbestos Investigator,7,2019-01-01,2026-04-12,45.00
+igorgroysman02,Igor Groysman,02,Asbestos On Site Technical Air Testing,7,2019-01-01,2026-04-12,45.00
+ishahasan03,Isha Hasan,03,Asbestos Investigator,3,2019-01-01,2026-07-06,35.00
+joifeihung01,Joi Fei Hung,01,Asbestos Project Monitor,7,2019-01-01,2026-04-12,38.00
+leongroysman01,Leon Groysman,01,Asbestos Project Monitor,3,2019-01-01,2025-07-26,30.00
+leongroysman03,Leon Groysman,03,Asbestos Investigator,3,2019-01-01,2025-07-26,30.00
+leongroysman03,Leon Groysman,03,Asbestos Investigator,3,2025-07-27,2026-04-12,35.00
+leongroysman01,Leon Groysman,01,Asbestos Project Monitor,3,2025-07-27,2026-04-12,35.00
+marinaablitsova01,Marina Ablitsova,01,Asbestos Project Monitor,3,2019-01-01,2026-04-12,35.00
+maryanskira01,Maryan Skira,01,Asbestos Project Monitor,3,2019-01-01,2026-04-12,35.00
+ricardovilchez06,Ricardo Vilchez,06,Lead Inspector,7,2019-01-01,2024-07-15,45.00
+ricardovilchez01,Ricardo Vilchez,01,Asbestos Project Monitor,7,2019-01-01,2024-07-15,38.00
+ricardovilchez02,Ricardo Vilchez,02,Asbestos On Site Technical Air Testing,7,2019-01-01,2024-07-15,45.00
+ricardovilchez03,Ricardo Vilchez,03,Asbestos Investigator,7,2019-01-01,2024-07-15,45.00
+shalvasagihashvili01,Shalva Sagihashvili,01,Asbestos Project Monitor,3,2022-12-01,2023-05-30,38.00
+soslanlazarov01,Soslan Lazarov,01,Asbestos Project Monitor,3,2019-01-01,2026-04-12,33.00
+tatianaciobanu01,Tatiana Ciobanu,01,Asbestos Project Monitor,3,2019-01-01,2026-04-12,33.00
+tatianaciobanu01,Tatiana Ciobanu,01,Asbestos Project Monitor,7,2026-04-13,2026-07-06,38.00
+zviadinebieridze01,Zviadi Nebieridze,01,Asbestos Project Monitor,3,2019-01-01,2026-04-12,33.00
+chifeihung01,Chi Fei Hung,01,Asbestos Project Monitor,7,2026-04-13,2026-07-06,42.00
+chifeihung02,Chi Fei Hung,02,Asbestos On Site Technical Air Testing,7,2026-04-13,2026-07-06,42.00
+cornelalbu01,Cornel Albu,01,Asbestos Project Monitor,7,2026-04-13,2026-07-06,42.00
+cornelalbu05,Cornel Albu,05,Asbestos Project Manager,7,2025-01-01,2026-07-06,45.00
+cornelalbu03,Cornel Albu,03,Asbestos Investigator,7,2026-04-13,2026-07-06,50.00
+igorgroysman01,Igor Groysman,01,Asbestos Project Monitor,7,2026-04-13,2026-07-06,42.00
+igorgroysman03,Igor Groysman,03,Asbestos Investigator,7,2026-04-13,2026-07-06,55.00
+igorgroysman02,Igor Groysman,02,Asbestos On Site Technical Air Testing,7,2026-04-13,2026-07-06,55.00
+joifeihung01,Joi Fei Hung,01,Asbestos Project Monitor,7,2026-04-13,2026-07-06,42.00
+leongroysman03,Leon Groysman,03,Asbestos Investigator,3,2026-04-13,2026-07-06,38.00
+leongroysman01,Leon Groysman,01,Asbestos Project Monitor,3,2026-04-13,2026-07-06,38.00
+marinaablitsova01,Marina Ablitsova,01,Asbestos Project Monitor,3,2026-04-13,2026-07-06,38.00
+maryanskira01,Maryan Skira,01,Asbestos Project Monitor,3,2026-04-13,2026-07-06,38.00
+soslanlazarov01,Soslan Lazarov,01,Asbestos Project Monitor,3,2026-04-13,2026-07-06,35.00
+zviadinebieridze01,Zviadi Nebieridze,01,Asbestos Project Monitor,3,2026-04-13,2026-07-06,35.00
+vasilisbellos01,Vasilis Bellos,03,Asbestos Investigator,7,2019-01-01,2026-04-12,89.00
+vasilisbellos03,Vasilis Bellos,03,Asbestos Investigator,7,2026-04-13,2026-07-06,89.00
+vasilisbellos03,Vasilis Bellos,03,Asbestos Investigator,7,2019-01-01,2026-04-12,89.00
+vasilisbellos07,Vasilis Bellos,07,Lead Inspector/Risk Assessor,7,2019-01-01,2026-04-12,89.00
+vasilisbellos07,Vasilis Bellos,07,Lead Inspector/Risk Assessor,7,2026-04-13,2026-07-06,89.00
+dimitribellos01,Dimitri Bellos,01,Asbestos Project Monitor,7,2019-01-01,2026-04-12,89.00
+dimitribellos01,Dimitri Bellos,01,Asbestos Project Monitor,7,2026-04-13,2026-07-06,89.00
+dimitribellos03,Dimitri Bellos,03,Asbestos Investigator,7,2019-01-01,2026-04-12,89.00
+patriciadros00,Patricia Dros,00,Admin,3,2022-12-01,2026-07-06,28.00

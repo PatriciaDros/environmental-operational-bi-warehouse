@@ -1,0 +1,58 @@
+Category,Title,Years_Experience,Map_SCA_Labor_Key,SCA_Labor_Rate_Lookup,MaxLoadFieldHourly,Actual_Bill_Rate,Contract_No
+Asbestos,Project Monitor,7,C000015128 Asbestos Project Monitor|7,88.53,213.35,124.82,C000015128
+Asbestos,Project Monitor,3,C000015128 Asbestos Project Monitor|3,88.53,213.35,124.82,C000015128
+Asbestos,Air Testing,7,C000015128 Asbestos Air Testing|7,83.33,200.83,117.50,C000015128
+Asbestos,Air Testing,3,C000015128 Asbestos Air Testing|3,83.33,200.83,117.50,C000015128
+Asbestos,Investigator,3,C000015128 Asbestos Investigator|3,98.94,238.46,139.51,C000015128
+Asbestos,Project Designer,3,C000015128 Asbestos Project Designer|3,93.75,225.93,132.19,C000015128
+Asbestos,Project Manager,3,C000015128 Asbestos Project Manager|3,114.56,276.08,161.52,C000015128
+Lead,Inspector,3,C000015128 Lead Inspector|3,78.11,188.25,110.14,C000015128
+Lead,Inspector / Risk Assessor,3,C000015128 Lead Inspector / Risk Assessor|3,98.94,238.46,139.51,C000015128
+PCB,Field Technician,3,C000015128 PCB Field Technician|3,78.11,188.25,110.14,C000015128
+Asbestos,Investigator,7,C000015128 Asbestos Investigator|7,114.58,276.14,161.56,C000015128
+Asbestos,Project Designer,7,C000015128 Asbestos Project Designer|7,114.58,276.14,161.56,C000015128
+Asbestos,Project Manager,7,C000015128 Asbestos Project Manager|7,145.83,351.45,205.62,C000015128
+Lead,Inspector,7,C000015128 Lead Inspector|7,93.72,225.87,132.15,C000015128
+Lead,Inspector / Risk Assessor,7,C000015128 Lead Inspector / Risk Assessor|7,114.56,276.08,161.52,C000015128
+PCB,Field Technician,7,C000015128 PCB Field Technician|7,83.33,200.83,117.50,C000015128
+PCB,Field Technician,3,C000015128 PCB Field Technician|3,78.11,188.25,110.14,C000015128
+Asbestos,Inspector,3,C000015128 Asbestos Inspector|3,88.53,213.35,124.82,C000015128
+Asbestos,Inspector,7,C000015128 Asbestos Inspector|7,98.94,238.46,139.51,C000015128
+Asbestos,Project Monitor,7,C000015869 Asbestos Project Monitor|7,104.50,251.85,147.35,C000015869
+Asbestos,Project Monitor,3,C000015869 Asbestos Project Monitor|3,104.50,265.43,160.93,C000015869
+Asbestos,Air Testing,3,C000015869 Asbestos Air Testing|3,99.00,251.46,152.46,C000015869
+Asbestos,Air Testing,7,C000015869 Asbestos Air Testing|7,99.00,251.46,152.46,C000015869
+Asbestos,Investigator,3,C000015869 Asbestos Investigator|3,115.50,293.37,177.87,C000015869
+Asbestos,Project Designer,3,C000015869 Asbestos Project Designer|3,123.75,314.33,190.58,C000015869
+Asbestos,Project Manager,3,C000015869 Asbestos Project Manager|3,126.50,321.31,194.81,C000015869
+Lead,Inspector,3,C000015869 Lead Inspector|3,96.25,244.48,148.23,C000015869
+Lead,Inspector / Risk Assessor,3,C000015869 Lead Inspector / Risk Assessor|3,107.25,272.42,165.17,C000015869
+PCB,Field Technician,3,C000015869 PCB Field Technician|3,85.25,216.54,131.29,C000015869
+Asbestos,Investigator,7,C000015869 Asbestos Investigator|7,134.75,342.27,207.52,C000015869
+Asbestos,Project Designer,7,C000015869 Asbestos Project Designer|7,151.25,384.18,232.93,C000015869
+Asbestos,Project Manager,7,C000015869 Asbestos Project Manager|7,167.75,426.09,258.34,C000015869
+Lead,Inspector,7,C000015869 Lead Inspector|7,118.25,300.36,182.11,C000015869
+Lead,Inspector / Risk Assessor,7,C000015869 Lead Inspector / Risk Assessor|7,140.25,356.24,215.99,C000015869
+PCB,Field Technician,7,C000015869 PCB Field Technician|7,99.00,238.59,139.59,C000015869
+PCB,Field Technician,3,C000015869 PCB Field Technician|3,85.25,205.45,120.20,C000015869
+Asbestos,Inspector,3,C000015869 Asbestos Inspector|3,99.00,238.59,139.59,C000015869
+Asbestos,Inspector,7,C000015869 Asbestos Inspector|7,118.25,284.98,166.73,C000015869
+Asbestos,Project Monitor,3,C000016435 Asbestos Project Monitor|3,144.00,421.92,277.92,C000016435
+Asbestos,Project Monitor,7,C000016435 Asbestos Project Monitor|7,144.00,421.92,277.92,C000016435
+Asbestos,Air Testing,3,C000016435 Asbestos Air Testing|3,132.00,386.76,254.76,C000016435
+Asbestos,Air Testing,7,C000016435 Asbestos Air Testing|7,132.00,386.76,254.76,C000016435
+Asbestos,Investigator,3,C000016435 Asbestos Investigator|3,180.00,527.40,347.40,C000016435
+Asbestos,Project Designer,3,C000016435 Asbestos Project Designer|3,189.00,553.77,364.77,C000016435
+Asbestos,Project Manager,3,C000016435 Asbestos Project Manager|3,201.00,588.93,387.93,C000016435
+Lead,Inspector,3,C000016435 Lead Inspector|3,135.00,395.55,260.55,C000016435
+Lead,Inspector / Risk Assessor,3,C000016435 Lead Inspector / Risk Assessor|3,183.00,536.19,353.19,C000016435
+PCB,Field Technician,3,C000016435 PCB Field Technician|3,129.00,377.97,248.97,C000016435
+Asbestos,Investigator,7,C000016435 Asbestos Investigator|7,201.00,588.93,387.93,C000016435
+Asbestos,Project Designer,7,C000016435 Asbestos Project Designer|7,216.00,632.88,416.88,C000016435
+Asbestos,Project Manager,7,C000016435 Asbestos Project Manager|7,231.00,676.83,445.83,C000016435
+Lead,Inspector,7,C000016435 Lead Inspector|7,165.00,483.45,318.45,C000016435
+Lead,Inspector / Risk Assessor,7,C000016435 Lead Inspector / Risk Assessor|7,183.00,536.19,353.19,C000016435
+PCB,Field Technician,7,C000016435 PCB Field Technician|7,150.00,439.50,289.50,C000016435
+PCB,Field Technician,3,C000016435 PCB Field Technician|3,129.00,377.97,248.97,C000016435
+Asbestos,Inspector,3,C000016435 Asbestos Inspector|3,132.00,386.76,254.76,C000016435
+Asbestos,Inspector,7,C000016435 Asbestos Inspector|7,165.00,483.45,318.45,C000016435

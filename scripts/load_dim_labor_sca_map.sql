@@ -1,4 +1,6 @@
 DESCRIBE dim_labor_sca_map;
+SELECT VERSION();
+SHOW VARIABLES LIKE 'local_infile';
 
 SELECT COUNT(*) FROM dim_labor_sca_map;
 
@@ -22,8 +24,3 @@ IGNORE 1 ROWS
     actual_bill_rate,
     contract_no
 );
-
-SET GLOBAL local_infile = ON;
-
-SHOW VARIABLES LIKE 'local_infile';
-

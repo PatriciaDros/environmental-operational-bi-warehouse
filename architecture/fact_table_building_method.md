@@ -1,6 +1,3 @@
-can you put the following in markdown as is...
-
-
 
 # Fact Table Building Method
 

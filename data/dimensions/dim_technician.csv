@@ -1,0 +1,37 @@
+tech_key,emp_id_key,job_title,yrs_exp,job_title_yrs_exp_key,emp_alias
+1,4,Asbestos Project Monitor,7,Asbestos Project Monitor|7,CAL01
+2,4,Asbestos Air Testing,7,Asbestos Air Testing|7,CAL01
+3,4,Asbestos Investigator,7,Asbestos Investigator|7,CAL01
+4,4,Asbestos Project Manager,7,Asbestos Project Manager|7,CAL01
+5,5,Asbestos Project Monitor,3,Asbestos Project Monitor|3,MAB01
+6,5,Asbestos Air Testing,3,Asbestos Air Testing|3,MAB01
+7,6,Asbestos Project Monitor,3,Asbestos Project Monitor|3,TCI01
+8,6,Asbestos Air Testing,3,Asbestos Air Testing|3,TCI01
+9,7,Asbestos Project Monitor,7,Asbestos Project Monitor|7,CFE01
+10,7,Asbestos Air Testing,7,Asbestos Air Testing|7,CFE01
+11,8,Asbestos Project Monitor,7,Asbestos Project Monitor|7,JFE01
+12,8,Asbestos Air Testing,7,Asbestos Air Testing|7,JFE01
+13,9,Asbestos Project Monitor,3,Asbestos Project Monitor|3,LGR01
+14,9,Asbestos Investigator,3,Asbestos Investigator|3,LGR01
+15,10,Asbestos Project Monitor,7,Asbestos Project Monitor|7,IGR01
+16,10,Asbestos Air Testing,7,Asbestos Air Testing|7,IGR01
+17,10,Asbestos Investigator,7,Asbestos Investigator|7,IGR01
+18,11,Asbestos Project Monitor,7,Asbestos Project Monitor|7,RVI01
+19,11,Asbestos Air Testing,7,Asbestos Air Testing|7,RVI01
+20,11,Asbestos Investigator,7,Asbestos Investigator|7,RVI01
+21,11,Asbestos Project Designer,7,Asbestos Project Designer|7,RVI01
+22,11,Asbestos Project Manager,7,Asbestos Project Manager|7,RVI01
+23,11,Lead Inspector,7,Lead Inspector|7,RVI01
+24,11,Lead Inspector / Risk Assessor,7,Lead Inspector / Risk Assessor|7,RVI01
+25,12,Asbestos Project Monitor,7,Asbestos Project Monitor|7,SLA01
+26,13,Asbestos Project Monitor,7,Asbestos Project Monitor|7,AGA01
+27,13,Asbestos Air Testing,7,Asbestos Air Testing|7,AGA01
+28,14,Asbestos Project Monitor,7,Asbestos Project Monitor|7,ATS01
+29,14,Asbestos Air Testing,7,Asbestos Air Testing|7,ATS01
+30,15,Asbestos Project Monitor,7,Asbestos Project Monitor|7,ZNE01
+31,2,Asbestos Investigator,7,Asbestos Investigator|7,DBE01
+32,1,Asbestos Investigator,7,Asbestos Investigator|7,VBE01
+33,16,Asbestos Project Monitor,7,Asbestos Project Monitor|7,SSA01
+34,17,Asbestos Project Monitor,7,Asbestos Project Monitor|7,AAD01
+35,18,Asbestos Project Monitor,7,Asbestos Project Monitor|7,MSK01
+36,9,Lead Inspector,3,Lead Inspector|3,LGR01

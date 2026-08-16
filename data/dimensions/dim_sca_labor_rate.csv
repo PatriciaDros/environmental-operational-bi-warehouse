@@ -1,0 +1,55 @@
+sca_labor_rate_id,contract_no,job_title,category,title,sca_job_title_key,yrs_exp,hourly_rate,home_hourly,field_hourly
+1,CT-001,Asbestos Inspector,Asbestos,Inspector,CT-001 Asbestos Inspector|7,7,39.42,98.94,95.00
+2,CT-001,Asbestos Inspector,Asbestos,Inspector,CT-001 Asbestos Inspector|3,3,35.27,88.53,85.00
+3,CT-001,Asbestos Investigator,Asbestos,Investigator,CT-001 Asbestos Investigator|7,7,45.65,114.58,110.02
+4,CT-001,Asbestos Investigator,Asbestos,Investigator,CT-001 Asbestos Investigator|3,3,39.42,98.94,95.00
+5,CT-001,Asbestos On Site Technical Air Testing,Asbestos,Air Testing,CT-001 Asbestos On Site Technical Air Testing|3,3,33.20,83.33,80.01
+6,CT-001,Asbestos On Site Technical Air Testing,Asbestos,Air Testing,CT-001 Asbestos On Site Technical Air Testing|7,7,33.20,83.33,80.01
+7,CT-001,Asbestos Project Manager,Asbestos,Project Manager,CT-001 Asbestos Project Manager|7,7,58.10,145.83,140.02
+8,CT-001,Asbestos Project Manager,Asbestos,Project Manager,CT-001 Asbestos Project Manager|3,3,45.64,114.56,109.99
+9,CT-001,Asbestos Project Monitor,Asbestos,Project Monitor,CT-001 Asbestos Project Monitor|7,7,35.27,88.53,85.00
+10,CT-001,Asbestos Project Monitor,Asbestos,Project Monitor,CT-001 Asbestos Project Monitor|3,3,35.27,88.53,85.00
+11,CT-001,Certified Lead Inspector,Lead,Inspector,CT-001 Certified Lead Inspector|7,7,37.34,93.72,89.99
+12,CT-001,Certified Lead Inspector,Lead,Inspector,CT-001 Certified Lead Inspector|3,3,31.12,78.11,75.00
+13,CT-001,Certified Lead Inspector / Risk Assessor,Lead,Inspector / Risk Assessor,CT-001 Certified Lead Inspector / Risk Assessor|7,7,45.64,114.56,109.99
+14,CT-001,Certified Lead Inspector / Risk Assessor,Lead,Inspector / Risk Assessor,CT-001 Certified Lead Inspector / Risk Assessor|3,3,39.42,98.94,95.00
+15,CT-001,Mold Field Technician,Mold,Field Technician,CT-001 Mold Field Technician|5,5,33.20,83.33,80.01
+16,CT-001,PCB Field Technician,PCB,Field Technician,CT-001 PCB Field Technician|7,7,33.20,83.33,80.01
+17,CT-001,PCB Field Technician,PCB,Field Technician,CT-001 PCB Field Technician|3,3,31.12,78.11,75.00
+18,CT-001,PCB Project Manager,PCB,Project Manager,CT-001 PCB Project Manager|5,5,58.09,145.81,140.00
+19,CT-002,Asbestos Inspector,Asbestos,Inspector,CT-002 Asbestos Inspector|7,7,43.00,118.25,109.22
+20,CT-002,Asbestos Inspector,Asbestos,Inspector,CT-002 Asbestos Inspector|3,3,36.00,99.00,91.44
+21,CT-002,Asbestos Investigator,Asbestos,Investigator,CT-002 Asbestos Investigator|7,7,49.00,134.75,124.46
+22,CT-002,Asbestos Investigator,Asbestos,Investigator,CT-002 Asbestos Investigator|3,3,42.00,115.50,106.68
+23,CT-002,Asbestos On Site Technical Air Testing,Asbestos,Air Testing,CT-002 Asbestos On Site Technical Air Testing|3,3,36.00,99.00,91.44
+24,CT-002,Asbestos On Site Technical Air Testing,Asbestos,Air Testing,CT-002 Asbestos On Site Technical Air Testing|7,7,36.00,99.00,91.44
+25,CT-002,Asbestos Project Manager,Asbestos,Project Manager,CT-002 Asbestos Project Manager|7,7,61.00,167.75,154.94
+26,CT-002,Asbestos Project Manager,Asbestos,Project Manager,CT-002 Asbestos Project Manager|3,3,46.00,126.50,116.84
+27,CT-002,Asbestos Project Monitor,Asbestos,Project Monitor,CT-002 Asbestos Project Monitor|7,7,38.00,104.50,96.52
+28,CT-002,Asbestos Project Monitor,Asbestos,Project Monitor,CT-002 Asbestos Project Monitor|3,3,38.00,104.50,96.52
+29,CT-002,Certified Lead Inspector,Lead,Inspector,CT-002 Certified Lead Inspector|7,7,43.00,118.25,109.22
+30,CT-002,Certified Lead Inspector,Lead,Inspector,CT-002 Certified Lead Inspector|3,3,35.00,96.25,88.90
+31,CT-002,Certified Lead Inspector / Risk Assessor,Lead,Inspector / Risk Assessor,CT-002 Certified Lead Inspector / Risk Assessor|7,7,51.00,140.25,129.54
+32,CT-002,Certified Lead Inspector / Risk Assessor,Lead,Inspector / Risk Assessor,CT-002 Certified Lead Inspector / Risk Assessor|3,3,39.00,107.25,99.06
+33,CT-002,Mold Field Technician,Mold,Field Technician,CT-002 Mold Field Technician|3,3,34.00,93.50,86.36
+34,CT-002,PCB Field Technician,PCB,Field Technician,CT-002 PCB Field Technician|7,7,36.00,99.00,91.44
+35,CT-002,PCB Field Technician,PCB,Field Technician,CT-002 PCB Field Technician|3,3,31.00,85.25,78.74
+36,CT-002,PCB Project Manager,PCB,Project Manager,CT-002 PCB Project Manager|5,5,55.00,151.25,139.70
+37,CT-003,Asbestos Inspector,Asbestos,Inspector,CT-003 Asbestos Inspector|7,7,55.00,165.00,161.15
+38,CT-003,Asbestos Inspector,Asbestos,Inspector,CT-003 Asbestos Inspector|3,3,44.00,132.00,128.92
+39,CT-003,Asbestos Investigator,Asbestos,Investigator,CT-003 Asbestos Investigator|7,7,67.00,201.00,196.31
+40,CT-003,Asbestos Investigator,Asbestos,Investigator,CT-003 Asbestos Investigator|3,3,60.00,180.00,175.80
+41,CT-003,Asbestos On Site Technical Air Testing,Asbestos,Air Testing,CT-003 Asbestos On Site Technical Air Testing|3,3,44.00,132.00,128.92
+42,CT-003,Asbestos On Site Technical Air Testing,Asbestos,Air Testing,CT-003 Asbestos On Site Technical Air Testing|7,7,44.00,132.00,128.92
+43,CT-003,Asbestos Project Manager,Asbestos,Project Manager,CT-003 Asbestos Project Manager|7,7,77.00,231.00,225.61
+44,CT-003,Asbestos Project Manager,Asbestos,Project Manager,CT-003 Asbestos Project Manager|3,3,67.00,201.00,196.31
+45,CT-003,Asbestos Project Monitor,Asbestos,Project Monitor,CT-003 Asbestos Project Monitor|7,7,48.00,144.00,140.64
+46,CT-003,Asbestos Project Monitor,Asbestos,Project Monitor,CT-003 Asbestos Project Monitor|3,3,48.00,144.00,140.64
+47,CT-003,Certified Lead Inspector,Lead,Inspector,CT-003 Certified Lead Inspector|7,7,55.00,165.00,161.15
+48,CT-003,Certified Lead Inspector,Lead,Inspector,CT-003 Certified Lead Inspector|3,3,45.00,135.00,131.85
+49,CT-003,Certified Lead Inspector / Risk Assessor,Lead,Inspector / Risk Assessor,CT-003 Certified Lead Inspector / Risk Assessor|7,7,61.00,183.00,178.73
+50,CT-003,Certified Lead Inspector / Risk Assessor,Lead,Inspector / Risk Assessor,CT-003 Certified Lead Inspector / Risk Assessor|3,3,61.00,183.00,178.73
+51,CT-003,Mold Field Technician,Mold,Field Technician,CT-003 Mold Field Technician|5,5,42.00,126.00,123.06
+52,CT-003,PCB Field Technician,PCB,Field Technician,CT-003 PCB Field Technician|7,7,50.00,150.00,146.50
+53,CT-003,PCB Field Technician,PCB,Field Technician,CT-003 PCB Field Technician|3,3,43.00,129.00,125.99
+54,CT-003,PCB Project Manager,PCB,Project Manager,CT-003 PCB Project Manager|5,5,80.00,240.00,234.40
